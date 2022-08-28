@@ -1,0 +1,19 @@
+.search-container {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
+    form {
+        width: fit-content;
+        margin: auto;
+        input {
+            appearance: none;
+            border: 0;
+            outline: 0;
+            font-size: 20px;
+        }
+        button {
+            border: 0;
+            background: 0;
+        }
+    }
+}

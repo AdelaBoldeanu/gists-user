@@ -1,0 +1,23 @@
+.container {
+    width: 80%;
+    margin: 40px auto;
+    .d-flex {
+        display: inline-flex;
+        width: 100%;
+    }
+    .results {
+        margin-left: 60px;
+        width: 70%;
+        height: fit-content;
+    }
+    .profile {
+        width: 30%;
+    }
+    .no_results {
+        text-align: center;
+        font-size: 40px;
+    }
+}
+* {
+    margin: 0;
+}

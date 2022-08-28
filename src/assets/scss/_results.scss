@@ -1,0 +1,106 @@
+.gist-results {
+    padding-top: 20px;
+    border-bottom: 1px solid rgba(204, 204, 204, 0.5);
+    &__details {
+        display: flex;
+        justify-content: space-between;
+        cursor: pointer;
+    }
+    &__margin {
+        margin-bottom: 50px;
+    }
+    &__info {
+        display: flex;
+        img {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+        div {
+            margin-left: 20px;
+            p {
+                font-size: 14px;
+                font-weight: 300;
+                margin-top: 10px;
+            }
+        }
+    }
+    &__language {
+        padding: 4px 10px;
+        height: fit-content;
+        border-radius: 6px;
+        background-color: #e34c26;
+        margin-right: 10px;
+    }
+    &__flex {
+        display: flex;
+    }
+    .bg_blue {
+        background-color: #4F5D95;
+    }
+    .gist-content {
+        margin-top: 30px;
+        padding: 15px;
+        background-color: black;
+        color: white;
+        pre {
+            overflow: auto;
+        }
+    }
+    .forks {
+        display: flex;
+        margin-top: 20px;
+        &__items {
+            display: flex;
+            align-items: center;
+            width: 90%;
+            img {
+                width: 50px;
+                height: 50px;
+                border-radius: 50%;
+                object-fit: cover;
+            }
+            .forked_by {
+                width: 100%;
+                overflow: auto;
+                padding-bottom: 20px;
+                display: flex;
+                align-items: center;
+                div {
+                    margin-right: 10px;
+                }
+            }
+        }
+        .plus-icon {
+            position: relative;
+            margin-left: 20px;
+            img {
+                padding: 10px;
+                background-color: gray;
+                border-radius: 50%;
+                height: 24px;
+                width: 24px;
+                cursor: pointer;
+            }
+            .tooltip {
+                display: none;
+                width: 120px;
+                background-color: black;
+                color: #fff;
+                text-align: center;
+                padding: 5px 0;
+                border-radius: 6px;
+                bottom: 110%;
+                left: 50%;
+                margin-left: -60px;
+                /* Position the tooltip text - see examples below! */
+                position: absolute;
+                z-index: 1;
+            }
+            img:hover ~ .tooltip {
+                display: block;
+            }
+        }
+    }
+}

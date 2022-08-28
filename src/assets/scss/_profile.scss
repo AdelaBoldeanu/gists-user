@@ -1,0 +1,22 @@
+.user-profile {
+    img {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+    &__name {
+        font-size: 18px;
+        font-weight: 500px;
+        margin-bottom: 6px;
+        margin-top: 10px;
+    }
+    &__username {
+        font-size: 12px;
+        font-weight: 300;
+        margin-bottom: 30px;
+    }
+    &__description {
+        font-size: 14px;
+    }
+}
